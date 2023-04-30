@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", sans-serif;
+}
+
+body {
+  background-image: url(../multimedia/pattern.svg);
+  background-attachment: fixed;
+}
+
+/* FONTS */
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.7rem;
+}
+
+.sec-izq a {
+  text-decoration: none;
+  color: #B1B1B1;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.sec-izq .item-izquierdo {
+  margin: 0 1rem;
+}
+.sec-izq a:hover {
+  color: #666666;
+}
+
+.sec-der {
+  display: flex;
+  flex-direction: row;
+  color: #B1B1B1;
+  font-weight: 600;
+}
+.sec-der .item-derecha {
+  margin: 0 1rem;
+}
+.sec-der a {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 0.9rem;
+}
+.sec-der a:hover {
+  color: #666666;
+}
+
+hr {
+  margin: 1.3rem 19rem;
+  border-color: #B1B1B1;
+}
+
+.home {
+  width: 100%;
+}
+.home .imagen {
+  width: 100%;
+}
+.home .imagen .cont-saludos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .imagen .cont-saludos img {
+  width: 120px;
+  height: 120px;
+  margin-top: 4rem;
+}
+.home .imagen .cont-saludos .texto-saludo {
+  color: #b1b1b1;
+  margin-top: 2rem;
+}
+.home .imagen .cont-saludos .title {
+  font-size: 4rem;
+  margin: 0 25rem;
+  text-align: center;
+  margin-top: 4rem;
+  color: #b1b1b1;
+}
+.home .imagen .cont-saludos .btn-talk {
+  display: flex;
+  margin: 4rem 0;
+  padding: 1rem 4rem;
+  border: solid 1px #b1b1b1;
+  background-color: #1A1A1A;
+  color: #b1b1b1;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.home .imagen .cont-saludos .btn-talk .btn-image {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0 0 1rem;
+}
+
+.home .imagen .cont-saludos .btn-talk:hover {
+  background-color: #666666;
+  transform: scale(1.2);
+  color: #1A1A1A;
+  font-weight: 600;
+}
+
+.sec-kpis {
+  width: 100%;
+  background-color: #161616;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sec-kpis .kpi-logo {
+  display: inline-block;
+  width: 6rem;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-izq {
+    margin-bottom: 1rem;
+  }
+  hr {
+    display: none;
+  }
+  .item-izquierdo {
+    display: none;
+  }
+  .texto-contacto {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #666666;
+    backdrop-filter: blur(4px) saturate(200%);
+    -webkit-backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(177, 177, 177, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  .home .imagen .cont-saludos .title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1440px) {
+  hr {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

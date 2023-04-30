@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", sans-serif;
+
+}
+
+body{
+    background-image: url(../multimedia/pattern.svg);
+    background-attachment: fixed
+}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@import 'menu';
+@import 'home';
+@import 'kpis';
+@import 'media-query';
