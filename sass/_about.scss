@@ -18,8 +18,13 @@
         width: 100%;
         .texto{
             color: #666666;
-            font-size: 2rem;
+            font-size: 3rem;
             margin: 2rem 0;
+            font-weight: 600;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #b1b1b1, #170c49);
         }
         .btn-talk{
             margin: 1rem 0;
@@ -29,6 +34,7 @@
             color: #b1b1b1;
             border-radius: 0.2rem;
             cursor: pointer;
+            text-decoration: none;
         }
     }
 }

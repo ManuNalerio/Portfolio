@@ -35,6 +35,9 @@
                     font-size: 3rem;
                     margin-bottom: 2rem;
                 }
+                a.btn-talk{
+                    animation: none;
+                }
             }
         }
     }
@@ -55,6 +58,20 @@
                     display: flex;
                     justify-content: center!important;
                 }
+            }
+        }
+    }
+    .sec-about{
+        .text-about{
+            margin: 0 2rem;
+        }
+    }
+    .sec-contacto{
+        .contacto-text{
+            width: 100%;
+            .texto{
+                font-size: 2.5rem;
+                padding: 0 1rem;
             }
         }
     }

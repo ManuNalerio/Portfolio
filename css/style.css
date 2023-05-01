@@ -84,7 +84,10 @@ hr {
   margin: 0 25rem;
   text-align: center;
   margin-top: 4rem;
-  color: #b1b1b1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #b1b1b1, #6859ac);
 }
 .home .imagen .cont-saludos .btn-talk {
   display: flex;
@@ -95,6 +98,7 @@ hr {
   color: #b1b1b1;
   border-radius: 0.2rem;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.3s ease-out;
 }
 .home .imagen .cont-saludos .btn-talk .btn-image {
@@ -145,8 +149,13 @@ hr {
 }
 .sec-contacto .contacto-text .texto {
   color: #666666;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 2rem 0;
+  font-weight: 600;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #b1b1b1, #170c49);
 }
 .sec-contacto .contacto-text .btn-talk {
   margin: 1rem 0;
@@ -156,6 +165,7 @@ hr {
   color: #b1b1b1;
   border-radius: 0.2rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .sec-footer {
@@ -210,6 +220,9 @@ hr {
     font-size: 3rem;
     margin-bottom: 2rem;
   }
+  .home .imagen .cont-saludos a.btn-talk {
+    animation: none;
+  }
   .sec-kpis {
     display: none;
   }
@@ -219,6 +232,16 @@ hr {
   .sec-footer .footer-der .item-footer a {
     display: flex;
     justify-content: center !important;
+  }
+  .sec-about .text-about {
+    margin: 0 2rem;
+  }
+  .sec-contacto .contacto-text {
+    width: 100%;
+  }
+  .sec-contacto .contacto-text .texto {
+    font-size: 2.5rem;
+    padding: 0 1rem;
   }
 }
 @media (max-width: 1440px) {
