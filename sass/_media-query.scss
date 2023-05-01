@@ -38,8 +38,26 @@
             }
         }
     }
+    
+    .sec-kpis{
+        display: none;
+    }
 
-
+    .sec-footer{
+        .footer-izq{
+            p{
+                display: none;
+            }
+        }
+        .footer-der{
+            .item-footer{
+                a{
+                    display: flex;
+                    justify-content: center!important;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width:1440px){
