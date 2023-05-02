@@ -130,6 +130,7 @@ hr {
 .sec-about {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 10rem 0;
 }
@@ -166,6 +167,13 @@ hr {
   border-radius: 0.2rem;
   cursor: pointer;
   text-decoration: none;
+}
+
+.sec-contacto .contacto-text .btn-talk:hover {
+  background-color: #666666;
+  transform: scale(1.2);
+  color: #1A1A1A;
+  font-weight: 600;
 }
 
 .sec-footer {
