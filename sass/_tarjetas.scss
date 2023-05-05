@@ -1,0 +1,15 @@
+.sec-tarjetas{
+    width: 100%;
+    display: flex;
+    .tarjetas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin: 5rem;
+        .tarjeta-1{
+            width: 100%;
+            background-color: blanchedalmond;
+        }
+    }
+}

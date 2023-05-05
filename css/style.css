@@ -171,6 +171,22 @@ hr {
   text-decoration: none;
 }
 
+.sec-tarjetas {
+  width: 100%;
+  display: flex;
+}
+.sec-tarjetas .tarjetas {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 5rem;
+}
+.sec-tarjetas .tarjetas .tarjeta-1 {
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
 .sec-contacto .contacto-text .btn-talk:hover {
   background-color: #555555;
   transform: scale(1.2);
