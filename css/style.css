@@ -141,6 +141,9 @@ hr {
   text-align: center;
   font-size: 2rem;
 }
+.sec-about .texto-sec-about {
+  margin: 1rem 0;
+}
 
 .sec-contacto {
   width: 100%;
@@ -149,26 +152,6 @@ hr {
 }
 .sec-contacto .contacto-text {
   width: 100%;
-}
-.sec-contacto .contacto-text .texto {
-  color: #666666;
-  font-size: 3rem;
-  margin: 5rem 0;
-  font-weight: 600;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, #dadada, #1e1d24);
-}
-.sec-contacto .contacto-text .btn-talk {
-  margin: 1rem 0;
-  padding: 1rem 4rem;
-  border: solid 1px #b1b1b1;
-  background-color: #1A1A1A;
-  color: #b1b1b1;
-  border-radius: 0.2rem;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .sec-tarjetas {
@@ -184,8 +167,9 @@ hr {
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   border: 1px solid #333;
+  border-radius: 4px;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas {
   margin: 4rem 2rem;
@@ -202,11 +186,15 @@ hr {
   color: #626266;
 }
 
-.sec-contacto .contacto-text .btn-talk:hover {
-  background-color: #555555;
-  transform: scale(1.2);
-  color: #1A1A1A;
+.texto {
+  color: #666666;
+  font-size: 3rem;
+  margin: 5rem 0;
   font-weight: 600;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #dadada, #1e1d24);
 }
 
 .sec-footer {
@@ -217,6 +205,15 @@ hr {
 }
 .sec-footer .footer-izq {
   color: #b1b1b1;
+}
+.sec-footer .btn-talk {
+  padding: 0.5rem;
+  border: solid 1px #b1b1b1;
+  background-color: rgba(240, 240, 240, 0);
+  color: #b1b1b1;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
 }
 .sec-footer .footer-der {
   display: flex;
@@ -262,8 +259,16 @@ hr {
   .sec-kpis {
     display: none;
   }
+  .sec-footer {
+    display: flex;
+    flex-direction: column;
+  }
   .sec-footer .footer-izq p {
     display: none;
+  }
+  .sec-footer .btn-talk {
+    margin: 1rem;
+    text-align: center;
   }
   .sec-footer .footer-der .item-footer a {
     display: flex;
