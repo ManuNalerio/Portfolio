@@ -22,7 +22,7 @@
                 background-clip: text;
                 -webkit-background-clip: text;
                 color: transparent;
-                background-image: linear-gradient(to right, #b1b1b1, #5f578b);
+                background-image: linear-gradient(to right, #dadada, #1e1d24);
             }
             .btn-talk{
                 display: flex;
@@ -49,7 +49,7 @@
     .imagen{
         .cont-saludos{
             .btn-talk:hover{
-                background-color: #666666;
+                background-color: #555555;
                 transform: scale(1.2);
                 color: #1A1A1A;
                 font-weight: 600;

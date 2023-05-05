@@ -33,7 +33,7 @@ body {
   margin: 0 1rem;
 }
 .sec-izq a:hover {
-  color: #666666;
+  color: #555555;
 }
 
 .sec-der {
@@ -52,7 +52,7 @@ body {
   margin: 0 1rem;
 }
 .sec-der a:hover {
-  color: #666666;
+  color: #555555;
 }
 
 hr {
@@ -87,7 +87,7 @@ hr {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #b1b1b1, #5f578b);
+  background-image: linear-gradient(to right, #dadada, #1e1d24);
 }
 .home .imagen .cont-saludos .btn-talk {
   display: flex;
@@ -108,7 +108,7 @@ hr {
 }
 
 .home .imagen .cont-saludos .btn-talk:hover {
-  background-color: #666666;
+  background-color: #555555;
   transform: scale(1.2);
   color: #1A1A1A;
   font-weight: 600;
@@ -125,6 +125,8 @@ hr {
 .sec-kpis .kpi-logo {
   display: inline-block;
   width: 6rem;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .sec-about {
@@ -156,7 +158,7 @@ hr {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #b1b1b1, #5f578b);
+  background-image: linear-gradient(to right, #dadada, #1e1d24);
 }
 .sec-contacto .contacto-text .btn-talk {
   margin: 1rem 0;
@@ -170,7 +172,7 @@ hr {
 }
 
 .sec-contacto .contacto-text .btn-talk:hover {
-  background-color: #666666;
+  background-color: #555555;
   transform: scale(1.2);
   color: #1A1A1A;
   font-weight: 600;
@@ -196,7 +198,7 @@ hr {
   font-weight: 600;
 }
 .sec-footer .footer-der a:hover {
-  color: #666666;
+  color: #706a8f;
 }
 
 @media (max-width: 768px) {
@@ -217,19 +219,14 @@ hr {
   .texto-contacto {
     padding: 0.5rem;
     border-radius: 0.5rem;
-    color: #666666;
-    backdrop-filter: blur(4px) saturate(200%);
-    -webkit-backdrop-filter: blur(4px) saturate(200%);
-    background-color: rgba(177, 177, 177, 0.15);
+    color: #979797;
+    background-color: rgba(197, 197, 197, 0.1098039216);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid #979797;
   }
   .home .imagen .cont-saludos .title {
     font-size: 3rem;
     margin-bottom: 2rem;
-  }
-  .home .imagen .cont-saludos a.btn-talk {
-    animation: none;
   }
   .sec-kpis {
     display: none;

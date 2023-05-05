@@ -8,5 +8,7 @@
     .kpi-logo{
         display: inline-block;
         width: 6rem;
+        aspect-ratio: 3/2;
+        object-fit: contain;
     }
 }
