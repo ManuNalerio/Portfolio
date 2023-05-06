@@ -37,6 +37,13 @@
     }
   }
 
+  .sec-about {
+    margin: 4rem 0;
+    .text-about {
+      font-size: 1.5rem;
+    }
+  }
+
   .sec-kpis {
     display: none;
   }
@@ -48,6 +55,9 @@
       p {
         display: none;
       }
+    }
+    .footer-der {
+      justify-content: center;
     }
 
     .btn-talk {
