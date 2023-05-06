@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(../multimedia/pattern.svg);
+  background-image: url(../multimedia/pattern3.svg);
   background-attachment: fixed;
 }
 
@@ -157,6 +157,7 @@ hr {
 .sec-tarjetas {
   width: 100%;
   display: flex;
+  padding: 0 3rem;
 }
 .sec-tarjetas .tarjetas {
   width: 100%;
@@ -205,15 +206,6 @@ hr {
 }
 .sec-footer .footer-izq {
   color: #b1b1b1;
-}
-.sec-footer .btn-talk {
-  padding: 0.5rem;
-  border: solid 1px #b1b1b1;
-  background-color: rgba(240, 240, 240, 0);
-  color: #b1b1b1;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
 }
 .sec-footer .footer-der {
   display: flex;
