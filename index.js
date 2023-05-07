@@ -6,7 +6,7 @@ const saludo = document.querySelector('.texto-saludo');
 const annotationSaludo = annotate(saludo, { 
   type: 'underline',
   color: 'yellow',
- 
+  animationDuration: 1500 // Duración de la animación en milisegundos
 });
 
 const annotation = annotate(tech, {
