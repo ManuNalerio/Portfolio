@@ -28,10 +28,10 @@
         display: flex;
         margin: 4rem 0;
         padding: 1rem 4rem;
-        border: solid 1px #b1b1b1;
-        background-color: #1a1a1a;
+        border: solid 1px #2e3138;
+        background-color: #181523;
         color: #b1b1b1;
-        border-radius: 0.2rem;
+        border-radius: 0.4rem;
         cursor: pointer;
         text-decoration: none;
         .btn-image {
@@ -49,9 +49,8 @@
   .imagen {
     .cont-saludos {
       .btn-talk:hover {
-        background-color: #555555;
         transform: scale(1.2);
-        color: #1a1a1a;
+        color: #525252;
         font-weight: 600;
       }
     }

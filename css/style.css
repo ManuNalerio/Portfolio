@@ -23,7 +23,7 @@ body {
 
 .sec-izq a {
   text-decoration: none;
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
 .sec-der {
   display: flex;
   flex-direction: row;
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-weight: 600;
 }
 .sec-der .item-derecha {
@@ -57,7 +57,7 @@ body {
 
 hr {
   margin: 1.3rem 19rem;
-  border-color: #B1B1B1;
+  border-color: #b1b1b1;
 }
 
 .home {
@@ -93,10 +93,10 @@ hr {
   display: flex;
   margin: 4rem 0;
   padding: 1rem 4rem;
-  border: solid 1px #b1b1b1;
-  background-color: #1a1a1a;
+  border: solid 1px #2e3138;
+  background-color: #181523;
   color: #b1b1b1;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s ease-out;
@@ -108,9 +108,8 @@ hr {
 }
 
 .home .imagen .cont-saludos .btn-talk:hover {
-  background-color: #555555;
   transform: scale(1.2);
-  color: #1a1a1a;
+  color: #525252;
   font-weight: 600;
 }
 
@@ -133,7 +132,7 @@ hr {
   padding: 4rem 0;
   text-align: center;
   margin: 0 auto;
-  background-color: #161616;
+  background-color: #181523;
   overflow-x: hidden;
 }
 .slider .kpi {
@@ -185,7 +184,7 @@ hr {
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: #181523;
   border: 1px solid #333;
   border-radius: 4px;
 }
