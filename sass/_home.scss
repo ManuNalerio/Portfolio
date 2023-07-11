@@ -28,7 +28,7 @@
         display: flex;
         margin: 4rem 0;
         padding: 1rem 4rem;
-        border: solid 1px #2e3138;
+        border: none;
         background-color: #181523;
         color: #b1b1b1;
         border-radius: 0.4rem;
@@ -50,8 +50,7 @@
     .cont-saludos {
       .btn-talk:hover {
         transform: scale(1.2);
-        color: #525252;
-        font-weight: 600;
+        color: #b1b1b1;
       }
     }
   }
