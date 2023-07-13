@@ -144,6 +144,10 @@ hr {
   object-fit: contain;
 }
 
+.kpi-celular .celular .celular-logo {
+  display: none;
+}
+
 .sec-about {
   width: 100%;
   display: flex;
@@ -237,10 +241,15 @@ hr {
 }
 
 @media (max-width: 768px) {
+  body {
+    background-image: url(../multimedia/pattern3.svg);
+    background-attachment: fixed;
+  }
   .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem 0 0 0;
   }
   .sec-izq {
     margin-bottom: 1rem;
@@ -261,6 +270,7 @@ hr {
   }
   .home .imagen .cont-saludos .title {
     font-size: 3rem;
+    margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
   .sec-about {
@@ -271,6 +281,21 @@ hr {
   }
   .sec-kpis {
     display: none;
+  }
+  .kpi-celular {
+    width: 100%;
+    margin: 2rem 0;
+    background-color: #181523;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kpi-celular .celular {
+    margin: 0.5rem 0.5rem;
+  }
+  .kpi-celular .celular .celular-logo {
+    display: inline-block;
+    width: 4rem;
   }
   .sec-footer {
     display: flex;
