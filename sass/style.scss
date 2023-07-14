@@ -8,7 +8,9 @@
 }
 
 body {
-  background-image: url(../multimedia/pattern.svg);
+  background-image: radial-gradient(#332f49 1px, transparent 1px);
+  background-size: 25px 25px;
+  background-color: #161616;
   background-attachment: fixed;
 }
 

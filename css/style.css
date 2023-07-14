@@ -8,7 +8,9 @@
 }
 
 body {
-  background-image: url(../multimedia/pattern.svg);
+  background-image: radial-gradient(#332f49 1px, transparent 1px);
+  background-size: 25px 25px;
+  background-color: #161616;
   background-attachment: fixed;
 }
 
@@ -94,7 +96,7 @@ hr {
   margin: 4rem 0;
   padding: 1rem 4rem;
   border: none;
-  background-color: #181523;
+  background-color: #1a1a1a;
   color: #b1b1b1;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -131,7 +133,7 @@ hr {
   padding: 4rem 0;
   text-align: center;
   margin: 0 auto;
-  background-color: #181523;
+  background-color: #1a1a1a;
   overflow-x: hidden;
 }
 .slider .kpi {
@@ -187,7 +189,7 @@ hr {
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #181523;
+  background-color: #1a1a1a;
   border: none;
   border-radius: 4px;
 }
@@ -242,7 +244,9 @@ hr {
 
 @media (max-width: 768px) {
   body {
-    background-image: url(../multimedia/pattern3.svg);
+    background-image: radial-gradient(#332f49 1px, transparent 1px);
+    background-size: 25px 25px;
+    background-color: #161616;
     background-attachment: fixed;
   }
   .nav {
@@ -285,7 +289,7 @@ hr {
   .kpi-celular {
     width: 100%;
     margin: 2rem 0;
-    background-color: #181523;
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
     align-items: center;
